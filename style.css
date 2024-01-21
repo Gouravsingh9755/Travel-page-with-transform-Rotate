@@ -1,0 +1,271 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://wallpaperaccess.com/full/706918.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.overlay{
+    height: 6%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    top: 0%;
+    border-bottom:2px solid white ;
+}
+
+.overlay1{
+
+    
+    height: 95%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.801); */
+    /* background-color: rgba(57, 158, 198, 0.575); */
+    background-color: rgba(0, 0, 0, 0.715);
+    
+
+
+}
+ .nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+    color: aliceblue;
+    position: relative;
+    z-index: 999;
+    padding-top: 3px;
+
+
+}
+
+h2{
+
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(49, 96, 238);
+}
+
+h3{
+
+    font-size: 12px ;
+}
+
+h3:hover{
+
+    color: green;
+
+}
+
+.nav i{
+
+    margin-left: 30%;
+    
+}
+
+button{
+
+    height: 25px;
+    width: 95px;
+    font-size: 10px;
+    font-weight: 700;
+    /* margin-left: 35%; */
+    border-radius: 30px;
+    /* background-color: rgb(244, 148, 31); */
+    background-color: rgb(26, 53, 133);
+    color: white;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: green;
+}
+
+.box1{
+
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(https://wallpaperaccess.com/full/706928.jpg);
+    background-position: top;
+    background-size: cover;
+    transform: perspective(300px) rotateY(30deg) ;
+    /* translate: 15px; */
+    
+    
+}
+
+.box1:hover{
+
+    scale: 1.1;
+    transition: all ease 0.7s;
+
+   
+}
+
+
+
+.box2{
+
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid red; */
+    background-image: url(https://wallpaperaccess.com/full/706912.jpg);
+    background-position: left;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    transform: perspective(300px) rotateY(20deg);
+    /* translate: 5px;  */
+}
+
+.box2:hover{
+
+    scale: 1.1;
+    transition: all ease 0.6s;
+
+   
+}
+
+
+
+.box3{
+
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid red; */
+    background-image: url(https://wallpaperaccess.com/full/706913.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+
+.box3:hover{
+
+    scale: 1.1;
+    transition: all ease 0.6s;
+}
+
+
+.box4{
+
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid red; */
+    background-image: url(https://wallpaperaccess.com/full/706968.jpg);
+
+    background-position: center;
+    background-size: cover;
+    transform: perspective(300px) rotateY(-20deg);
+    border: 1px solid black;   
+    border-radius: 5px;
+    /* translate: -5px; */
+}
+
+.box4:hover{
+
+    scale: 1.1;
+    transition: all ease 0.6s;
+
+   
+}
+
+
+.box5{
+
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid red; */
+    background-image: url(https://wallpaperaccess.com/full/706977.jpg);
+    background-position: top;
+    background-size: cover;
+    transform: perspective(300px) rotateY(-30deg);
+    border: 1px solid black;
+    border-radius: 5px;
+    /* translate: -15px; */
+}
+
+.box5:hover{
+
+    scale: 1.1;
+    transition: all ease 1s;
+    
+
+}
+
+
+.boxes{
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    position: absolute;
+    top: 6%;
+}
+
+h1{
+
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 35%;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: sans-serif;
+    /* color: white; */
+    color: #B99C70;
+    /* color: black; */
+    color: rgb(20, 145, 93);
+    text-shadow:5px 5px 1px black;
+    /* border-bottom: 1px solid black; */
+}
+
+
+
+h4{
+    position: absolute;
+    z-index: 999;
+    top: 70%;
+    left: 35%;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    /* color: rgb(22, 69, 210); */
+    /* color: white; */
+    /* color: #B99C70; */
+    text-shadow:2px 2px 1px black;
+    color: rgb(20, 145, 93);;
+    border-bottom: 1px solid black;
+}
+
+
